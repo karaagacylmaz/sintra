@@ -1,0 +1,333 @@
+<div class="page-holder w-100 d-flex flex-wrap">
+    <div class="container-fluid px-xl-5">
+      <section class="py-5">
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+            <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-violet"></div>
+                <div class="text">
+                  <h6 class="mb-0">Personel Listesi</h6><span class="text-gray">145</span>
+                </div>
+              </div>
+              <div class="icon text-white bg-violet"><i class="fas fa-user"></i></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+            <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-green"></div>
+                <div class="text">
+                  <h6 class="mb-0">Haberler</h6><span class="text-gray">32</span>
+                </div>
+              </div>
+              <div class="icon text-white bg-green"><i class="far fa-clipboard"></i></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+            <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-blue"></div>
+                <div class="text">
+                  <h6 class="mb-0">Çalışma Listesi</h6><span class="text-gray">400</span>
+                </div>
+              </div>
+              <div class="icon text-white bg-blue"><i class="fa fa-dolly-flatbed"></i></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+            <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-red"></div>
+                <div class="text">
+                  <h6 class="mb-0">Masraflar</h6><span class="text-gray">123</span>
+                </div>
+              </div>
+              <div class="icon text-white bg-red"><i class="fas fa-receipt"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row mb-4">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="card">
+              <div class="card-header">
+                <h2 class="h6 text-uppercase mb-0">Masraf Tablosu</h2>
+              </div>
+              <div class="card-body">
+                <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="chart-holder">
+                  <canvas id="lineChart1" style="max-height: 14rem !important;" class="w-100"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-4 mb-lg-0 pl-lg-0">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row align-items-center flex-row">
+                  <div class="col-lg-5">
+                    <h2 class="mb-0 d-flex align-items-center"><span>86.4</span><span class="dot bg-green d-inline-block ml-3"></span></h2><span class="text-muted text-uppercase small">Günlük Masraf</span>
+                    <hr><small class="text-muted">Lorem ipsum dolor sit</small>
+                  </div>
+                  <div class="col-lg-7">
+                    <canvas id="pieChartHome1"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center flex-row">
+                  <div class="col-lg-5">
+                    <h2 class="mb-0 d-flex align-items-center"><span>1.724</span><span class="dot bg-violet d-inline-block ml-3"></span></h2><span class="text-muted text-uppercase small">Aylık Masraf</span>
+                    <hr><small class="text-muted">Lorem ipsum dolor sit</small>
+                  </div>
+                  <div class="col-lg-7">
+                    <canvas id="pieChartHome2"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="col-lg-5 mb-4 mb-lg-0">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row align-items-center mb-3 flex-row">
+                  <div class="col-lg-5">
+                    <h2 class="mb-0 d-flex align-items-center"><span>86%</span><span class="dot bg-violet d-inline-block ml-3"></span></h2><span class="text-muted text-uppercase small">Monthly Usage</span>
+                    <hr><small class="text-muted">Lorem ipsum dolor sit</small>
+                  </div>
+                  <div class="col-lg-7">
+                    <canvas id="pieChartHome3"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center flex-row">
+                  <div class="col-lg-5">
+                    <h2 class="mb-0 d-flex align-items-center"><span>$126,41</span><span class="dot bg-green d-inline-block ml-3"></span></h2><span class="text-muted text-uppercase small">All Income</span>
+                    <hr><small class="text-muted">Lorem ipsum dolor sit</small>
+                  </div>
+                  <div class="col-lg-7">
+                    <canvas id="pieChartHome4"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h2 class="h6 text-uppercase mb-0">Özlük Bilgilerim</h2>
+              </div>
+              <div class="card-body">
+                <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="chart-holder">
+                  <canvas id="lineChart2" style="max-height: 14rem !important;" class="w-100"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5">
+        <div class="row text-dark">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="card rounded credit-card bg-hover-gradient-violet">
+              <div class="content d-flex flex-column justify-content-between p-4">
+                <h1 class="mb-5"><img style="width: 50px;" src="./assets/img/migros-icon.png" alt=""></h1>
+                <div class="d-flex justify-content-between align-items-end pt-3">
+                  <div class="text-uppercase">
+                    <div class="font-weight-bold d-block">Migros</div><small class="text-gray">--</small>
+                  </div>
+                  <h4 class="mb-0">--</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="card rounded credit-card bg-hover-gradient-blue">
+              <div class="content d-flex flex-column justify-content-between p-4">
+                <h1 class="mb-5"><img style="width: 50px;" src="./assets/img/hb-icon.png" alt=""></h1>
+                <div class="d-flex justify-content-between align-items-end pt-3">
+                  <div class="text-uppercase">
+                    <div class="font-weight-bold d-block">Hepsiburada</div><small class="text-gray">--</small>
+                  </div>
+                  <h4 class="mb-0">--</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="card rounded credit-card bg-hover-gradient-green">
+              <div class="content d-flex flex-column justify-content-between p-4">
+                <h1 class="mb-5"><img style="width: 50px;" src="./assets/img/carrefour-icon.png" alt=""></h1>
+                <div class="d-flex justify-content-between align-items-end pt-3">
+                  <div class="text-uppercase">
+                    <div class="font-weight-bold d-block">Carrefoursa</div><small class="text-gray">--</small>
+                  </div>
+                  <h4 class="mb-0">--</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card mb-5 mb-lg-0">         
+              <div class="card-header">
+                <h2 class="h6 mb-0 text-uppercase">Hazır Mesajlar</h2>
+              </div>
+              <div class="card-body">
+                <p class="text-gray mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-start align-items-sm-center mb-4 flex-column flex-sm-row">
+                  <div class="left d-flex align-items-center">
+                    <div class="icon icon-lg shadow mr-3 text-gray"><i class="fab fa fa-file"></i></div>
+                    <div class="text">
+                      <h6 class="mb-0 d-flex align-items-center"> <span>Tahsilat Makbuzu</span><span class="dot dot-sm ml-2 bg-violet"></span></h6><small class="text-gray">Muhasebe</small>
+                    </div>
+                  </div>
+                  <div class="right ml-5 ml-sm-0 pl-3 pl-sm-0 text-violet">
+                    <h5><i class="fab fa fa-copy"></i></h5>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-start align-items-sm-center mb-4 flex-column flex-sm-row">
+                  <div class="left d-flex align-items-center">
+                    <div class="icon icon-lg shadow mr-3 text-gray"><i class="fab fa fa-file"></i></div>
+                    <div class="text">
+                      <h6 class="mb-0 d-flex align-items-center"> <span>Bölge Müdürlüğü Bilgi Mesajı</span><span class="dot dot-sm ml-2 bg-green"></span></h6><small class="text-gray">Gümrük</small>
+                    </div>
+                  </div>
+                  <div class="right ml-5 ml-sm-0 pl-3 pl-sm-0 text-green">
+                    <h5><i class="fab fa fa-copy"></i></h5>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-start align-items-sm-center mb-4 flex-column flex-sm-row">
+                  <div class="left d-flex align-items-center">
+                    <div class="icon icon-lg shadow mr-3 text-gray"><i class="fas fa fa-file"></i></div>
+                    <div class="text">
+                      <h6 class="mb-0 d-flex align-items-center"> <span>KDV & Gümrük Vergi Matrahı Değişikliği</span><span class="dot dot-sm ml-2 bg-blue"></span></h6><small class="text-gray">Muhasebe</small>
+                    </div>
+                  </div>
+                  <div class="right ml-5 ml-sm-0 pl-3 pl-sm-0 text-blue">
+                    <h5><i class="fab fa fa-copy"></i></h5>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-start align-items-sm-center mb-4 flex-column flex-sm-row">
+                  <div class="left d-flex align-items-center">
+                    <div class="icon icon-lg shadow mr-3 text-gray"><i class="fab fa fa-file"></i></div>
+                    <div class="text">
+                      <h6 class="mb-0 d-flex align-items-center"> <span>Ordino Bilgilendirme Mesajı</span><span class="dot dot-sm ml-2 bg-red"></span></h6><small class="text-gray">Gümrük</small>
+                    </div>
+                  </div>
+                  <div class="right ml-5 ml-sm-0 pl-3 pl-sm-0 text-red">
+                    <h5><i class="fab fa fa-copy"></i></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white shadow roundy px-4 py-3 d-flex align-items-center justify-content-between mb-4">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-violet"></div>
+                <div class="text">
+                  <h6 class="mb-0">Müşteri Dosyaları</h6><span class="text-gray">-</span>
+                </div>
+              </div>
+              <div class="icon bg-violet text-white"><i class="fas fa-clipboard-check"></i></div>
+            </div>
+            <div class="bg-white shadow roundy px-4 py-3 d-flex align-items-center justify-content-between mb-4">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-green"></div>
+                <div class="text">
+                  <h6 class="mb-0">Müşteri Dosyası Yükleme</h6><span class="text-gray">-</span>
+                </div>
+              </div>
+              <div class="icon bg-green text-white"><i class="fas fa fa-upload"></i></div>
+            </div>
+            <div class="bg-white shadow roundy px-4 py-3 d-flex align-items-center justify-content-between mb-4">
+              <div class="flex-grow-1 d-flex align-items-center">
+                <div class="dot mr-3 bg-blue"></div>
+                <div class="text">
+                  <h6 class="mb-0">Halkla İlişkiler</h6><span class="text-gray">-</span>
+                </div>
+              </div>
+              <div class="icon bg-blue text-white"><i class="fas fa-user-friends"></i></div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="py-5">
+        <div class="row">
+          <div class="col-lg-12"><a href="#" class="message card px-5 py-3 mb-4 bg-hover-gradient-primary no-anchor-style">
+              <div class="row">
+                <div class="col-lg-3 d-flex align-items-center flex-column flex-lg-row text-center text-md-left"><strong class="h5 mb-0">24<sup class="smaller text-gray font-weight-normal">Nisan</sup></strong><img src="./assets/img/avatar-1.jpg" alt="..." style="max-width: 3rem" class="rounded-circle mx-3 my-2 my-lg-0">
+                  <h6 class="mb-0">Ahmet Demir</h6>
+                </div>
+                <div class="col-lg-9 d-flex align-items-center flex-column flex-lg-row text-center text-md-left">
+                  <div class="bg-gray-100 roundy px-4 py-1 mr-0 mr-lg-3 mt-2 mt-lg-0 text-dark exclode">Gümrük İşlemleri</div>
+                  <p class="mb-0 mt-3 mt-lg-0">Hepsiburada şirketinin ordino işlemleri tamamlandı. </p>
+                  <span class="ml-4"><i class="fab fa fa-clock"></i> &nbsp; 08:00 - 17-00</span>
+                </div>
+              </div></a></div>
+          <div class="col-lg-12"><a href="#" class="message card px-5 py-3 mb-4 bg-hover-gradient-primary no-anchor-style">
+              <div class="row">
+                <div class="col-lg-3 d-flex align-items-center flex-column flex-lg-row text-center text-md-left"><strong class="h5 mb-0">24<sup class="smaller text-gray font-weight-normal">Nisan</sup></strong><img src="./assets/img/avatar-2.jpg" alt="..." style="max-width: 3rem" class="rounded-circle mx-3 my-2 my-lg-0">
+                  <h6 class="mb-0">Metin Yılmaz</h6>
+                </div>
+                <div class="col-lg-9 d-flex align-items-center flex-column flex-lg-row text-center text-md-left">
+                  <div class="bg-gray-100 roundy px-4 py-1 mr-0 mr-lg-3 mt-2 mt-lg-0 text-dark exclode">Muhasebe</div>
+                  <p class="mb-0 mt-3 mt-lg-0">Müşteri muhasebe işlemleri yapıldı. </p>
+                  <span class="ml-4"><i class="fab fa fa-clock"></i> &nbsp; 08:00 - 17-00</span>
+                </div>
+              </div></a></div>
+          <div class="col-lg-12"><a href="#" class="message card px-5 py-3 mb-4 bg-hover-gradient-primary no-anchor-style">
+              <div class="row">
+                <div class="col-lg-3 d-flex align-items-center flex-column flex-lg-row text-center text-md-left"><strong class="h5 mb-0">17<sup class="smaller text-gray font-weight-normal">Nisan</sup></strong><img src="./assets/img/avatar-3.jpg" alt="..." style="max-width: 3rem" class="rounded-circle mx-3 my-2 my-lg-0">
+                  <h6 class="mb-0">Deniz Kara</h6>
+                </div>
+                <div class="col-lg-9 d-flex align-items-center flex-column flex-lg-row text-center text-md-left">
+                  <div class="bg-gray-100 roundy px-4 py-1 mr-0 mr-lg-3 mt-2 mt-lg-0 text-dark exclode">İnsan Kaynakları</div>
+                  <p class="mb-0 mt-3 mt-lg-0">İş görüşmeleri yapıldı, bordrolar düzenlendi.</p>
+                  <span class="ml-4"><i class="fab fa fa-clock"></i> &nbsp; 08:00 - 17-00</span>
+                </div>
+              </div></a></div>
+          <div class="col-lg-12"><a href="#" class="message card px-5 py-3 mb-4 bg-hover-gradient-primary no-anchor-style">
+              <div class="row">
+                <div class="col-lg-3 d-flex align-items-center flex-column flex-lg-row text-center text-md-left"><strong class="h5 mb-0">15<sup class="smaller text-gray font-weight-normal">Nisan</sup></strong><img src="./assets/img/avatar-4.jpg" alt="..." style="max-width: 3rem" class="rounded-circle mx-3 my-2 my-lg-0">
+                  <h6 class="mb-0">Hasan Ali Yücel</h6>
+                </div>
+                <div class="col-lg-9 d-flex align-items-center flex-column flex-lg-row text-center text-md-left">
+                  <div class="bg-gray-100 roundy px-4 py-1 mr-0 mr-lg-3 mt-2 mt-lg-0 text-dark exclode">Operasyon</div>
+                  <p class="mb-0 mt-3 mt-lg-0">Migros A.Ş'nin gümrük işlemleri yapıldı.</p>
+                  <span class="ml-4"><i class="fab fa fa-clock"></i> &nbsp; 08:00 - 17-00</span>
+                </div>
+              </div></a></div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer bg-white shadow align-self-end py-3 px-xl-5 w-100">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-left text-primary">
+            <p class="mb-2 mb-md-0">Mentor Gümrük &copy; 2020</p>
+          </div>
+          <div class="col-md-6 text-center text-md-right text-gray-400">
+            <p class="mb-0">Design by <a href="https://www.linkedin.com/in/uaperk/" class="external text-gray-400">uaperk</a></p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
