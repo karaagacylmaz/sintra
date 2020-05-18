@@ -5,7 +5,7 @@ import { TableComponent } from './components/table/table.component';
 import { HomeComponent } from './components/home/home.component';
 
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: 'home', 
     component: HomeComponent,
