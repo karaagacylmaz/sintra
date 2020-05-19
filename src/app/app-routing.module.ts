@@ -6,15 +6,10 @@ import { HomeComponent } from './components/home/home.component';
 
 
 export const routes: Routes = [
-  {
-    path: 'home', 
-    component: HomeComponent,
-    children: [
-      { path: 'index', component: IndexComponent },
-      { path: 'table', component: TableComponent },
-      { path: '**', redirectTo: 'index'}
-    ]
-  }
+    {path: '', component: IndexComponent},
+    { path: 'tablolar', component: TableComponent },
+    { path: 'anasayfa', component: IndexComponent },
+    { path: '**', redirectTo: 'anasayfa'}
 ];
 
 @NgModule({
